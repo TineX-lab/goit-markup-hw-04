@@ -52,6 +52,9 @@ address {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -107,6 +110,7 @@ address {
     padding: 24px 0;
     position: relative;
     color: #2e2f42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link.current {
@@ -145,6 +149,7 @@ address {
 .contacts-link {
     display: block;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
@@ -189,6 +194,8 @@ address {
     letter-spacing: 0.04em;
     border-radius: 4px;
     padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -219,6 +226,12 @@ address {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+}
+
+.features-icon {
+    width: 64px;
+    height: 64px;
 }
 
 .features-list {
